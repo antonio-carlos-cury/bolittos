@@ -1,8 +1,6 @@
 using System.Security.Cryptography;
 using System.Text;
-
-namespace BolittosApi.Helpers
-{
+
 	public (string hashedPassword, string salt) HashPassword(string password)
 	{
 		int saltSize = 16;
@@ -32,4 +30,3 @@ namespace BolittosApi.Helpers
 			return CryptographicOperations.FixedTimeEquals(computedHash, storedHashBytes);
 		}
 	}
-}
