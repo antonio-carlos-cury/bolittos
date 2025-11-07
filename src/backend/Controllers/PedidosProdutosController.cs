@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using VendasApi.Data;
-using VendasApi.Models;
+using BolittosApi.Data;
+using BolittosApi.Models;
 
 namespace BolittosApi.Controllers;
 
